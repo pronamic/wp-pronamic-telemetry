@@ -1,0 +1,27 @@
+{
+	"name": "@pronamic/wp-pronamic-telemetry",
+	"version": "1.0.0",
+	"description": "Pronamic Telemetry is a library that collects data from WordPress websites powered by Pronamic solutions.",
+	"author": "Pronamic",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"pronamic",
+		"telemetry",
+		"wordpress"
+	],
+	"homepage": "https://github.com/pronamic/wp-pronamic-telemetry#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pronamic/wp-pronamic-telemetry.git"
+	},
+	"bugs": {
+		"url": "https://github.com/pronamic/wp-pronamic-telemetry/issues"
+	},
+	"devDependencies": {
+		"@wordpress/env": "^10.10.0",
+		"@wordpress/scripts": "^30.3.0"
+	},
+	"scripts": {
+		"lint:pkg-json": "wp-scripts lint-pkg-json"
+	}
+}

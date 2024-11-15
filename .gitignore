@@ -1,0 +1,11 @@
+# Build
+/build/
+
+# Node.js
+/node_modules/
+
+# Composer
+/vendor/
+
+# Ignore generated credentials from google-github-actions/auth
+gha-creds-*.json
